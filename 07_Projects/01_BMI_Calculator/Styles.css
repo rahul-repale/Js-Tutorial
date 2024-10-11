@@ -1,0 +1,45 @@
+html{
+    margin: 0;
+}
+
+body{
+    background-color: gray;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h1{
+    padding-left: 30px;
+}
+
+.heightDiv{
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+.weightDiv{
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+.button{
+    padding-top: 30px;
+    padding-left: 80px;
+}
+
+#calculateButton{
+    border: solid black 2px;
+    padding: 5px 20px;
+    font-size: 16px;
+}
+
+#userGuide{
+    padding-left: 60px;
+    padding-top: 15px;
+}
+
+.resultArea{
+    padding-top: 20px;
+    padding-left: 50px;
+    font-size: 22px;
+    color: aliceblue;
+}

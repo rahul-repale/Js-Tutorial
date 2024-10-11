@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Cloak</title>
+    <style>
+        body{
+            background-color: #212121;
+            color: aliceblue;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .centre{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .clock{
+            background-color: orange;
+            border-radius: 20px;
+            margin-top: 10px;
+            padding: 20px 50px;
+            font-size: 40px;
+        }
+
+        .banner{
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="centre">
+        <div class="banner">Your Local Time</div>
+        <div class="clock"></div>
+    </div>
+    <script>
+        const clock = document.querySelector('.clock')
+
+        setInterval(function(){
+            const date = new Date()
+
+            clock.innerHTML = date.toLocaleTimeString()
+        }, 1000)
+    </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+body{
+    color: aliceblue;
+    background-color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0%;
+}
+
+#mainTitle{
+    background-color: #111111;
+}
+
+#head{
+    font-size: 60px;
+    font-weight: 500;
+}
+
+#container{
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #444;
+    width: 550px;
+    height: 600px;
+    margin: 0px 420px;
+}
+
+#searchBox{
+    padding: 10px 10px;
+    font-size: 22px;
+    border: 5px solid gray;
+    border-radius: 2px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+#submit{
+    background-color: #111111;
+    font-size: 22px;
+    border: #111111 solid 2px;
+    border-radius: 15px;
+    color: #f1f1f1;
+    padding: 10px 40px;
+}
+
+#hint{
+    font-size: 30px;
+    color: aliceblue;
+}
